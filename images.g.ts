@@ -10,7 +10,7 @@ namespace myImages {
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "myAnim":
+            case "Hedgehog":
             case "anim1":return [img`
 ..............................
 ..............................
