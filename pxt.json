@@ -1,5 +1,5 @@
 {
-    "name": "8-bit Hedgehog game",
+    "name": "? 8-bit Hedgehog game - Copy",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -10,7 +10,9 @@
         "README.md",
         "assets.json",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -31,7 +33,7 @@
         "#FF8135",
         "#FFF609",
         "#249CA3",
-        "#78DC52",
+        "#4E7A27",
         "#003FAD",
         "#583300",
         "#8E2EC4",
