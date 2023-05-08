@@ -1,5 +1,5 @@
 {
-    "name": "8-bit Hedgehog game - Copy",
+    "name": "8-bit Hedgehog game",
     "description": "",
     "dependencies": {
         "device": "*"
