@@ -1,22 +1,5 @@
 info.setLife(3)
-scene.setBackgroundImage(assets.image`temp background`)
 controller.moveSprite(sprites.create(assets.image`Hedgehog main character`, SpriteKind.Player))
+scene.setBackgroundImage(assets.image`temp background`)
 music.play(music.createSong(assets.song`Song`), music.PlaybackMode.UntilDone)
-let projectile = sprites.createProjectileFromSprite(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, sprites.create(assets.image`Hedgehog main character`, SpriteKind.Player), 50, 50)
+let projectile = sprites.createProjectileFromSprite(assets.image`image`, sprites.create(assets.image`Evil hedgehog`, SpriteKind.Enemy), 50, 50)
