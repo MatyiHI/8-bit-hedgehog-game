@@ -1,6 +1,3 @@
-info.onLifeZero(function () {
-    game.setGameOverMessage(true, "GAME OVER!")
-})
 info.setLife(3)
 scene.setBackgroundImage(assets.image`temp background`)
 controller.moveSprite(sprites.create(assets.image`Hedgehog main character`, SpriteKind.Player))
